@@ -1,0 +1,156 @@
+/* header */
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1px;
+}
+.logo-container1{
+   margin: 5px 20px;
+   height: 68px;
+}
+.company-logo {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+}
+.d-flex{
+  margin-right: 800px;
+}
+.container-fluid{
+  height: 78px;
+}
+/* sidebar */
+
+
+
+.container {
+    display: flex;
+    margin-top: 80px;  
+  } 
+  .sidebar1 {
+    position: fixed;
+    top: 81px; 
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    width: 250px;
+    padding: 20px;
+    height: calc(100vh - 70px); 
+    overflow-y: auto;
+    z-index: 1000; 
+  }
+  .content {
+    margin-left: 278px; 
+    flex-grow: 1;
+    padding: 20px;
+  }
+  .sidebar1 a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+}
+
+.sidebar1 a.active {
+    border-radius: 20px;
+    background-color: #4e514e;
+    color: white;
+}
+
+.dropdown1 {
+    position: relative;
+    min-width: 210px;
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content1 a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+ 
+  /* mybooking */
+  
+.main-content {
+    flex-grow: 1;
+    /* padding: 5px; */
+    /* margin-left: 200px; */
+  }
+  .all h4{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+   
+  }
+  .all button{
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  }
+  .main-header {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-header h3{
+   
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+  }
+  
+  .bookings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .bookings-table th,
+  .bookings-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .bookings-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

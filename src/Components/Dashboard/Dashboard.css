@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+.log {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.content121 {
+  display: flex;
+  align-items: center;
+  flex-basis: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 200px;
+  height: auto;
+}
+
+.container123 {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  flex-basis: 50%;
+  background-color: white;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+p {
+  letter-spacing: 4px;
+  text-align: center;
+}
+.namee{
+  padding: 0px 120px;
+}
+.input-group {
+  margin-bottom: 20px;
+  
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.options label {
+  display: inline-block;
+  margin-right: 10px;
+}
+.login-container{
+  display: none;
+}
+
+@media screen and (max-width:1000px){
+
+  .log{
+    display: none;
+  }
+  .login-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 100vh;
+    background-color: #fff;
+  }
+  .logo-container {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .logo-container h3{
+    font-family: "Great Vibes", cursive;
+    font-weight:bolder;
+    font-size: 30px;
+  }
+  .logo-container p1{
+    
+    letter-spacing: 4.5px;
+  }
+  .truck_logo{
+    margin-top:20px ;
+    /* margin-left: 30px; */
+  }
+  .truck_logo img{
+    border-radius:50px;
+    width: 150px;
+    height: 150px;
+  }
+  .logo {
+    width: auto; 
+    margin-bottom: 20px;
+  }
+  .login-form {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+  }
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+.login-form label {
+  padding: 10px;
+  margin-left: -150px;
+}
+.option {
+
+   justify-content: left;
+   align-self: baseline;
+   display: flex;
+}
+.option label{
+  padding-top: 30px;
+  margin-left: -135px;
+}
+.option a{
+  margin-left: -10px;
+}
+  .login-button:hover {
+    background-color: #333;
+  }
+}
